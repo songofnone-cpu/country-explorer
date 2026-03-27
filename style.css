@@ -1,0 +1,85 @@
+body {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+  background: #fdecf6;
+}
+
+h1 { text-align: center; }
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  color: #eafaf2;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #777676;
+  border-radius: 8px;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #02051b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(206, 191, 191, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.card h2 { margin: 0 0 12px; }
+
+.card p {
+  margin: 6px 0;
+  color: #514e4e;
+}
+
+.error {
+  color: rgb(176, 151, 233);
+  text-align: center;
+}
+#load-all-btn {
+  display: block;
+  margin: 0 auto 30px;
+  padding: 10px 24px;
+  font-size: 15px;
+  background: #3f423d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px;
+}
+
+.grid .card {
+  font-size: 13px;
+}
+
+.grid .card h2 {
+  font-size: 15px;
+  margin: 8px 0 6px;
+}
