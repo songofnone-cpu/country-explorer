@@ -3,10 +3,11 @@ body {
   max-width: 600px;
   margin: 40px auto;
   padding: 0 20px;
-  background: #fdecf6;
+  background: #dfd4d4;
 }
 
-h1 { text-align: center; }
+h1 { text-align: center;
+  color: #eafaf2}
 
 .search-box {
   display: flex;
@@ -19,14 +20,14 @@ h1 { text-align: center; }
   flex: 1;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #777676;
+  border: 1px solid #e3b9b9;
   border-radius: 8px;
 }
 
 .search-box button {
   padding: 10px 20px;
   font-size: 16px;
-  background: #02051b;
+  background: #8a6c6c;
   color: white;
   border: none;
   border-radius: 8px;
@@ -37,7 +38,7 @@ h1 { text-align: center; }
   background: white;
   border-radius: 12px;
   padding: 24px;
-  box-shadow: 0 2px 8px rgba(206, 191, 191, 0.1);
+  box-shadow: 0 2px 8px rgba(51, 46, 46, 0.1);
 }
 
 .card img {
@@ -50,7 +51,7 @@ h1 { text-align: center; }
 
 .card p {
   margin: 6px 0;
-  color: #514e4e;
+  color: #b8a0a0;
 }
 
 .error {
@@ -62,7 +63,7 @@ h1 { text-align: center; }
   margin: 0 auto 30px;
   padding: 10px 24px;
   font-size: 15px;
-  background: #3f423d;
+  background: #675c30;
   color: white;
   border: none;
   border-radius: 8px;
@@ -82,4 +83,13 @@ h1 { text-align: center; }
 .grid .card h2 {
   font-size: 15px;
   margin: 8px 0 6px;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2; /* Places the video behind your content */
+  object-fit: cover; /* Ensures the video fills the screen without distortion */
 }

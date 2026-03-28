@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
   <title>Country Explorer</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <h1>Country Explorer</h1>
-
-  
-
-  
   <script src="script.js"></script>
+  <video autoplay muted loop playsinline id="myVideo">
+    <source src="kkk.mp4" type="video/mp4">
+  </video>
   <div class="search-box">
-  <input type="text" id="search" placeholder="Search a country..." />
-  <button onclick="searchCountry()">♡</button>
+    <input type="text" id="search" placeholder=" Search a Country ..." />
+  <button onclick="searchCountry()">search</button>
   </div>
-
   <button id="load-all-btn" onclick="loadAll()">List all countries</button>
-
   <div id="result"></div>
 </body>
 </html>
